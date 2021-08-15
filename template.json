@@ -1,6 +1,10 @@
 {
   "Actor": {
-    "types": ["character", "npc", "vehicle"],
+    "types": [
+      "character",
+      "npc",
+      "vehicle"
+    ],
     "templates": {
       "common": {
         "abilities": {
@@ -106,71 +110,183 @@
           "race": ""
         },
         "skills": {
-          "acr": {
+          "afi": {
+            "value": 0,
+            "ability": "int"
+          },
+          "cou": {
+            "value": 0,
+            "ability": "con"
+          },
+          "dex": {
             "value": 0,
             "ability": "dex"
           },
-          "ani": {
+          "bal": {
             "value": 0,
-            "ability": "wis"
+            "ability": "dex"
           },
-          "arc": {
+          "str": {
+            "value": 0,
+            "ability": "con"
+          },
+          "ste": {
+            "value": 0,
+            "ability": "dex"
+          },
+          "pec": {
+            "value": 0,
+            "ability": "dex"
+          },
+          "res": {
+            "value": 0,
+            "ability": "con"
+          },
+          "hea": {
+            "value": 0,
+            "ability": "con"
+          },
+          "spe": {
+            "value": 0,
+            "ability": "dex"
+          },
+          "sig": {
+            "value": 0,
+            "ability": "dex"
+          },
+          "wil": {
+            "value": 0,
+            "ability": "con"
+          },
+          "alt": {
+            "value": 0,
+            "ability": "con"
+          },
+          "gad": {
+            "value": 0,
+            "ability": "dex"
+          },
+          "liw": {
+            "value": 0,
+            "ability": "dex"
+          },
+          "maw": {
             "value": 0,
             "ability": "int"
           },
-          "ath": {
+          "now": {
+            "value": 0,
+            "ability": "con"
+          },
+          "ncw": {
             "value": 0,
             "ability": "str"
           },
-          "dec": {
+          "hew": {
             "value": 0,
-            "ability": "cha"
+            "ability": "con"
           },
-          "his": {
+          "raw": {
+            "value": 0,
+            "ability": "dex"
+          },
+          "fis": {
+            "value": 0,
+            "ability": "dex"
+          },
+          "ctr": {
             "value": 0,
             "ability": "int"
           },
-          "ins": {
+          "enc": {
             "value": 0,
-            "ability": "wis"
+            "ability": "int"
           },
-          "itm": {
+          "shi": {
             "value": 0,
-            "ability": "cha"
+            "ability": "con"
+          },
+          "ilu": {
+            "value": 0,
+            "ability": "int"
           },
           "inv": {
             "value": 0,
             "ability": "int"
           },
-          "med": {
+          "air": {
             "value": 0,
-            "ability": "wis"
+            "ability": "int"
+          },
+          "arc": {
+            "value": 0,
+            "ability": "int"
+          },
+          "san": {
+            "value": 0,
+            "ability": "int"
+          },
+          "fir": {
+            "value": 0,
+            "ability": "int"
+          },
+          "lig": {
+            "value": 0,
+            "ability": "int"
+          },
+          "mid": {
+            "value": 0,
+            "ability": "int"
           },
           "nat": {
             "value": 0,
             "ability": "int"
           },
-          "prc": {
+          "ele": {
             "value": 0,
-            "ability": "wis"
+            "ability": "int"
           },
-          "prf": {
+          "blo": {
             "value": 0,
-            "ability": "cha"
+            "ability": "int"
+          },
+          "sha": {
+            "value": 0,
+            "ability": "int"
+          },
+          "tim": {
+            "value": 0,
+            "ability": "int"
+          },
+          "ear": {
+            "value": 0,
+            "ability": "int"
+          },
+          "wat": {
+            "value": 0,
+            "ability": "int"
           },
           "per": {
             "value": 0,
             "ability": "cha"
           },
-          "rel": {
+          "ani": {
             "value": 0,
-            "ability": "int"
+            "ability": "cha"
           },
-          "slt": {
+          "itm": {
             "value": 0,
-            "ability": "dex"
+            "ability": "con"
           },
-          "ste": {
+          "bar": {
+            "value": 0,
+            "ability": "cha"
+          },
+          "prf": {
+            "value": 0,
+            "ability": "cha"
+          },
+          "sle": {
             "value": 0,
             "ability": "dex"
           },
@@ -178,7 +294,59 @@
             "value": 0,
             "ability": "wis"
           },
-          "afi": {
+          "tai": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "alc": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "wea": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "cra": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "car": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "lea": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "eng": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "arm": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "her": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "jew": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "med": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "min": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "sai": {
+            "value": 0,
+            "ability": "wis"
+          },
+          "fih": {
             "value": 0,
             "ability": "wis"
           }
@@ -253,15 +421,21 @@
             "save": "",
             "skill": ""
           },
-          "spell":  {
+          "spell": {
             "dc": ""
           }
         }
       }
     },
-    "htmlFields": ["details.biography.value", "details.biography.public"],
+    "htmlFields": [
+      "details.biography.value",
+      "details.biography.public"
+    ],
     "character": {
-      "templates": ["common", "creature"],
+      "templates": [
+        "common",
+        "creature"
+      ],
       "attributes": {
         "death": {
           "success": 0,
@@ -320,7 +494,10 @@
       }
     },
     "npc": {
-      "templates": ["common", "creature"],
+      "templates": [
+        "common",
+        "creature"
+      ],
       "details": {
         "type": {
           "value": "",
@@ -352,7 +529,9 @@
       }
     },
     "vehicle": {
-      "templates": ["common"],
+      "templates": [
+        "common"
+      ],
       "vehicleType": "water",
       "abilities": {
         "int": {
@@ -394,11 +573,23 @@
         "size": "lg",
         "dimensions": "",
         "di": {
-          "value": ["poison", "psychic"]
+          "value": [
+            "poison",
+            "psychic"
+          ]
         },
         "ci": {
-          "value": ["blinded", "charmed", "deafened", "frightened", "paralyzed", "petrified", "poisoned", "stunned",
-            "unconscious"]
+          "value": [
+            "blinded",
+            "charmed",
+            "deafened",
+            "frightened",
+            "paralyzed",
+            "petrified",
+            "poisoned",
+            "stunned",
+            "unconscious"
+          ]
         }
       },
       "cargo": {
@@ -408,7 +599,17 @@
     }
   },
   "Item": {
-    "types": ["weapon", "equipment", "consumable", "tool", "loot", "class", "spell", "feat", "backpack"],
+    "types": [
+      "weapon",
+      "equipment",
+      "consumable",
+      "tool",
+      "loot",
+      "class",
+      "spell",
+      "feat",
+      "backpack"
+    ],
     "templates": {
       "itemDescription": {
         "description": {
@@ -488,9 +689,16 @@
         }
       }
     },
-    "htmlFields": ["description.value", "description.chat", "description.unidentified"],
+    "htmlFields": [
+      "description.value",
+      "description.chat",
+      "description.unidentified"
+    ],
     "backpack": {
-      "templates": ["itemDescription", "physicalItem"],
+      "templates": [
+        "itemDescription",
+        "physicalItem"
+      ],
       "capacity": {
         "type": "weight",
         "value": 0,
@@ -505,7 +713,9 @@
       }
     },
     "class": {
-      "templates": ["itemDescription"],
+      "templates": [
+        "itemDescription"
+      ],
       "levels": 1,
       "subclass": "",
       "hitDice": "d6",
@@ -522,14 +732,25 @@
       }
     },
     "consumable": {
-      "templates": ["itemDescription", "physicalItem", "activatedEffect", "action"],
+      "templates": [
+        "itemDescription",
+        "physicalItem",
+        "activatedEffect",
+        "action"
+      ],
       "consumableType": "potion",
       "uses": {
         "autoDestroy": false
       }
     },
     "equipment": {
-      "templates": ["itemDescription", "physicalItem", "activatedEffect", "action", "mountable"],
+      "templates": [
+        "itemDescription",
+        "physicalItem",
+        "activatedEffect",
+        "action",
+        "mountable"
+      ],
       "armor": {
         "type": "light",
         "value": null,
@@ -544,7 +765,11 @@
       "proficient": true
     },
     "feat": {
-      "templates": ["itemDescription", "activatedEffect", "action"],
+      "templates": [
+        "itemDescription",
+        "activatedEffect",
+        "action"
+      ],
       "requirements": "",
       "recharge": {
         "value": null,
@@ -552,17 +777,27 @@
       }
     },
     "loot": {
-      "templates": ["itemDescription", "physicalItem"]
+      "templates": [
+        "itemDescription",
+        "physicalItem"
+      ]
     },
     "tool": {
-      "templates": ["itemDescription", "physicalItem"],
+      "templates": [
+        "itemDescription",
+        "physicalItem"
+      ],
       "toolType": "",
       "ability": "int",
       "chatFlavor": "",
       "proficient": 0
     },
     "spell": {
-      "templates": ["itemDescription", "activatedEffect", "action"],
+      "templates": [
+        "itemDescription",
+        "activatedEffect",
+        "action"
+      ],
       "level": 1,
       "school": "",
       "components": {
@@ -589,7 +824,13 @@
       }
     },
     "weapon": {
-      "templates": ["itemDescription", "physicalItem" ,"activatedEffect", "action", "mountable"],
+      "templates": [
+        "itemDescription",
+        "physicalItem",
+        "activatedEffect",
+        "action",
+        "mountable"
+      ],
       "weaponType": "simpleM",
       "properties": {},
       "proficient": true
