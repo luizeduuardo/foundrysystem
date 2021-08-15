@@ -114,7 +114,7 @@ export default class Actor5e extends Actor {
     const checkBonus = Number.isNumeric(bonuses.check) ? parseInt(bonuses.check) : 0;
     for (let [id, abl] of Object.entries(data.abilities)) {
       if ( flags.diamondSoul ) abl.proficient = 1;  // Diamond Soul is proficient in all saves
-      abl.mod = Math.floor((abl.value - 10) / 2);
+      //abl.mod = Math.floor((abl.value - 10) / 2);
       abl.prof = (abl.proficient || 0) * data.attributes.prof;
       abl.saveBonus = saveBonus;
       abl.checkBonus = checkBonus;
@@ -401,7 +401,7 @@ export default class Actor5e extends Actor {
 
       // Compute modifier
       skl.bonus = checkBonus + skillBonus;
-      skl.mod = data.abilities[skl.ability].mod;
+      skl.mod = 0;
       skl.prof = round(skl.value * data.attributes.prof);
       skl.total = skl.mod + skl.prof + skl.bonus;
 
