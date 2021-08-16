@@ -94,6 +94,6 @@
   "minimumCoreVersion": "0.8.2",
   "compatibleCoreVersion": "0.8.8",
   "url": "https://github.com/luizeduuardo/foundrysystem",
-  "manifest": "https://github.com/luizeduuardo/foundrysystem/raw/main/system.json",
-  "download": "https://github.com/luizeduuardo/foundrysystem/archive/refs/heads/main.zip"
+  "manifest": "https://github.com/luizeduuardo/foundrysystem/raw/develop/system.json",
+  "download": "https://github.com/luizeduuardo/foundrysystem/archive/refs/heads/develop.zip"
 }
